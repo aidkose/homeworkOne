@@ -1,0 +1,68 @@
+.contact {
+    width: 100%;
+    min-height: 700px;
+    margin: 0 auto;
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        font-family: 'Inter', sans-serif;
+        text-decoration: underline solid 3px #ce6972;
+        text-underline-offset: 5px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    h3 {
+        width: 450px;
+        text-align: center;
+        margin: 0 auto 50px auto;
+        font-family: 'Inter', sans-serif;
+    }
+    .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
+
+        input {
+            width: 400px;
+            height: 40px;
+            margin-bottom: 20px;
+            font-family: 'Inter', sans-serif;
+            border: solid 2px #ce6972;
+            padding-left: 8px;
+            background-color: rgb(245, 245, 245);
+        }
+
+        .messager {
+            width: 400px;
+            height: 100px;
+            padding-bottom: 70px;
+            display: flex;
+        }
+        
+    .form-btn {
+        width: 250px;
+        height: 70px;
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ce6972;
+        color: white;
+        font-family: 'Inter', sans-serif;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .form-btn:hover {
+        background-color: #bc636a;
+    }
+    }
+h6 {
+    text-align: center;
+    margin: -40px auto 0 auto;
+    font-family: 'Inter', sans-serif;
+    color: gray;
+}
+}

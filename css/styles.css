@@ -210,6 +210,12 @@ nav .nav-holder .links a:hover:after {
   margin-top: 50px;
   margin-bottom: 100px;
 }
+.products h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
 .products .product-grid {
   width: 70%;
   min-height: 400px;
@@ -231,6 +237,14 @@ nav .nav-holder .links a:hover:after {
   width: 49%;
   height: 100%;
 }
+.products .product-grid .best-deals {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  padding-bottom: 15px;
+}
 .products .product-grid .row2 {
   height: 300px;
   width: 100%;
@@ -241,6 +255,77 @@ nav .nav-holder .links a:hover:after {
 .products .product-grid .row2 img {
   width: 32%;
   height: 100%;
+}
+.products p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+
+.contact {
+  width: 100%;
+  min-height: 700px;
+  margin: 0 auto;
+}
+.contact h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  text-decoration: underline solid 3px #ce6972;
+  text-underline-offset: 5px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.contact h3 {
+  width: 450px;
+  text-align: center;
+  margin: 0 auto 50px auto;
+  font-family: "Inter", sans-serif;
+}
+.contact .form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.contact .form input {
+  width: 400px;
+  height: 40px;
+  margin-bottom: 20px;
+  font-family: "Inter", sans-serif;
+  border: solid 2px #ce6972;
+  padding-left: 8px;
+  background-color: rgb(245, 245, 245);
+}
+.contact .form .messager {
+  width: 400px;
+  height: 100px;
+  padding-bottom: 70px;
+  display: flex;
+}
+.contact .form .form-btn {
+  width: 250px;
+  height: 70px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ce6972;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+}
+.contact .form .form-btn:hover {
+  background-color: #bc636a;
+}
+.contact h6 {
+  text-align: center;
+  margin: -40px auto 0 auto;
+  font-family: "Inter", sans-serif;
+  color: gray;
 }
 
 footer {
