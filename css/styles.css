@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +11,208 @@ html, body {
 
 h1, h2, h3, h4, h5, h6, p {
   margin-bottom: 16px;
+}
+
+nav {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+nav .nav-holder {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .nav-holder .logo {
+  margin-left: 50px;
+  height: 60%;
+  width: 200px;
+  background-image: url(../images/logo.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+nav .nav-holder .links {
+  padding-right: 100px;
+}
+nav .nav-holder .links a {
+  position: relative;
+  color: black;
+  font-size: 1.33rem;
+  text-decoration: none;
+  padding: 0 5px;
+  margin-left: 50px;
+  font-family: "Inter", sans-serif;
+}
+nav .nav-holder .links a:after {
+  content: "";
+  position: absolute;
+  background-color: #ce6972;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -5px;
+  transition: 0.25s;
+}
+nav .nav-holder .links a:hover:after {
+  width: 100%;
+}
+
+.home {
+  width: 100%;
+  min-height: 400px;
+  margin: 0 auto;
+}
+.home .hero {
+  width: 100%;
+  height: 700px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(../images/hero.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home .hero h1 {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+.home .hero p {
+  width: 45pc;
+  text-align: center;
+  color: white;
+  font-size: 1.1rem;
+}
+.home .icon-bar {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(235, 234, 233);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home .icon-bar .icon-holder {
+  width: 96%;
+  height: 85%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.home .icon-bar .icon-holder .icon-box {
+  width: 340px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+.home .icon-bar .icon-holder .icon-box .icon-circle {
+  width: 120px;
+  height: 120px;
+  background-color: rgb(235, 234, 233);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home .icon-bar .icon-holder .icon-box .icon-circle i {
+  color: #ce6972;
+  font-size: 50px;
+}
+.home .icon-bar .icon-holder .icon-box p {
+  width: 90%;
+  text-align: center;
+}
+
+.about {
+  width: 100%;
+  min-height: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about h1 {
+  font-family: "Inter", sans-serif;
+  text-decoration: underline solid 3px #ce6972;
+  text-underline-offset: 5px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.about .staff-list {
+  width: 800px;
+  height: 240px;
+  border: solid 3px #ce6972;
+  display: flex;
+  position: relative;
+}
+.about .staff-list .staff-image {
+  width: 35%;
+  height: 100%;
+  background-color: yellow;
+}
+.about .staff-list p {
+  width: 60%;
+  height: 95%;
+  position: absolute;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: #ce6972;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer .phone {
+  width: 48%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .phone h3 {
+  color: rgb(235, 234, 233);
+  font-family: "Inter", sans-serif;
+}
+footer .phone p {
+  color: rgb(235, 234, 233);
+  font-family: "Inter", sans-serif;
+}
+footer .socials {
+  width: 48%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer .socials h3 {
+  color: rgb(235, 234, 233);
+  font-family: "Inter", sans-serif;
+}
+footer .socials .socials-icons {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .socials .socials-icons i {
+  color: rgb(235, 234, 233);
+  font-size: 30px;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=styles.css.map */

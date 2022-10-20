@@ -1,0 +1,37 @@
+.about {
+    width: 100%;
+    min-height: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+        font-family: 'Inter', sans-serif;
+        text-decoration: underline solid 3px #ce6972;
+        text-underline-offset: 5px;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    .staff-list {
+        width: 800px;
+        height: 240px;
+        border: solid 3px #ce6972;
+        display: flex;
+        position: relative;
+
+        .staff-image {
+            width: 35%;
+            height: 100%;
+            background-color: yellow;
+        }
+
+        p {
+            width: 60%;
+            height: 95%;
+            position: absolute;
+            
+        }
+    }
+}
